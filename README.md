@@ -7,21 +7,28 @@
 
 ## 2. Nhật ký quá trình học và thực hành Git
 
+
 ### Giai đoạn 1: Học lý thuyết trên Microsoft Learn
 
 Đã hoàn thành các module được giao trên Microsoft Learn, qua đó nắm được những kiến thức cơ bản về Git và GitHub như Repository, Commit, Branch, Pull Request và quy trình quản lý phiên bản mã nguồn.
+
 
 ### Giai đoạn 2: Thực hành với GitHub Repository
 
 Tạo một GitHub repository cá nhân và kết nối giữa môi trường local với remote repository trên GitHub. Trong quá trình thực hành, đã tạo các nhánh riêng để mô phỏng việc phát triển tính năng độc lập và làm quen với quy trình làm việc theo GitHub Flow.
 
+
 ### Giai đoạn 3: Thực hành các tình huống nâng cao
 
 Chủ động tạo tình huống xung đột (Conflict) trên file *nhatky.txt* và tiến hành xử lý conflict để hiểu rõ hơn cách hợp nhất các thay đổi giữa các nhánh. Bên cạnh đó, cũng thực hành sử dụng lệnh `git revert` để hoàn tác một commit bị lỗi mà vẫn giữ nguyên lịch sử phát triển của dự án.
 
+
+
 ## 3. Danh sách các lệnh Git đã sử dụng
 
 Trong quá trình thực hành, đã sử dụng các lệnh Git cơ bản sau:
+
+
 
 
 * `git clone <url>`             : Sao chép repository từ GitHub về máy tính cá nhân.
@@ -34,6 +41,7 @@ Trong quá trình thực hành, đã sử dụng các lệnh Git cơ bản sau:
 * `git reset --hard origin/main`: Đồng bộ lại trạng thái local với nhánh chính trên GitHub khi cần thiết.
 * `git revert <commit_id>`      : Hoàn tác một commit bằng cách tạo thêm commit đảo ngược.
 * `git log --oneline`           : Xem lịch sử commit dưới dạng rút gọn.
+
 
 * `git clone <url>`: Sao chép repository từ GitHub về máy tính cá nhân.
 * `git checkout -b <tên_nhánh>`: Tạo nhánh mới và chuyển sang nhánh đó.
