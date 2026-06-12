@@ -1,0 +1,8 @@
+Trong quá trình thực hiện project Git Safety Foundation, đã hoàn thành hai lộ trình GitHub Foundations trên Microsoft Learn để tìm hiểu các kiến thức cơ bản về Git và GitHub. Sau đó tiến hành tạo repository cá nhân trên GitHub và thực hành các thao tác quản lý phiên bản. 
+Quá trình thực hành bao gồm tạo nhiều branch khác nhau, thực hiện commit với nội dung rõ ràng và đồng bộ dữ liệu giữa local và GitHub. 
+Bên cạnh đó, cũng tìm hiểu quy trình làm việc với Pull Request và cách hợp nhất các thay đổi giữa các nhánh.
+Để hiểu rõ hơn về cơ chế hoạt động của Git, đã chủ động tạo và xử lý tình huống conflict trong quá trình merge.
+Ngoài ra, còn thực hành rollback nhằm khôi phục lại trạng thái ổn định của dự án khi có thay đổi không mong muốn.
+Qua quá trình học và thực hành, đã hiểu rõ hơn vai trò của Git trong việc quản lý mã nguồn và kiểm soát các thay đổi. 
+Những kiến thức này sẽ là nền tảng quan trọng khi làm việc với AI trong quá trình Vibe Coding sau này. 
+Qua đó, nhận thấy Git không chỉ hỗ trợ lưu trữ lịch sử thay đổi mà còn giúp giảm thiểu rủi ro và nâng cao hiệu quả làm việc nhóm.
