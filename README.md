@@ -4,7 +4,7 @@
 **Kết quả học tập:** Đã hoàn thành đầy đủ hai lộ trình GitHub Foundations trên Microsoft Learn.
 
 Dòng này là nội dung từ nhánh FEATURE-3.
-
+Dòng này là nội dung từ nhánh FEATURE-2.
 Dòng này là nội dung từ nhánh MAIN.
 
 
