@@ -1,8 +1,8 @@
 # BÁO CÁO HOÀN THÀNH PROJECT: GIT SAFETY FOUNDATION
 
 ## 1. Thông tin cá nhân
-
 * **Họ và tên học viên:** Huỳnh Nhật Quốc
+* Dòng này là nội dung của nhánh FEATURE-1.
 * **Trạng thái:** Đã hoàn thành hai lộ trình Microsoft Learn theo yêu cầu.
 
 ## 2. Nhật ký quá trình học và thực hành Git
