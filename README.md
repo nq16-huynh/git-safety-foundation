@@ -1,6 +1,7 @@
 # BÁO CÁO HOÀN THÀNH GIT SAFETY FOUNDATION
 
 **Họ và tên:** Huỳnh Nhật Quốc
+
 **Kết quả học tập:** Đã hoàn thành đầy đủ hai lộ trình GitHub Foundations trên Microsoft Learn.
 
 
