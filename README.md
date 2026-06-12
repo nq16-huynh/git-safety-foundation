@@ -14,3 +14,5 @@ Dùng `git revert` hoặc `git reset` để khôi phục nhanh khi AI sinh code 
 eat: cập nhật mục tiêu dự án
 - Công cụ: GitHub, Git Bash. -> Message: docs: thêm danh sách công cụ sử dụng
 - Đang trong quá trình hoàn thiện bài tập. -> Message: chore: cập nhật trạng thái bài tập
+- Dự án hoàn thành sau khi kiểm tra kỹ. -> Message: docs: hoàn thiện nội dung cuối cùng
+- 
