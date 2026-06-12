@@ -1,0 +1,1 @@
+# git-safety-foundation
