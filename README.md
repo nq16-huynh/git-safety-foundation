@@ -23,9 +23,25 @@ Tạo một GitHub repository cá nhân và kết nối giữa môi trường lo
 Chủ động tạo tình huống xung đột (Conflict) trên file *nhatky.txt* và tiến hành xử lý conflict để hiểu rõ hơn cách hợp nhất các thay đổi giữa các nhánh. Bên cạnh đó, cũng thực hành sử dụng lệnh `git revert` để hoàn tác một commit bị lỗi mà vẫn giữ nguyên lịch sử phát triển của dự án.
 
 
+
 ## 3. Danh sách các lệnh Git đã sử dụng
 
 Trong quá trình thực hành, đã sử dụng các lệnh Git cơ bản sau:
+
+
+
+
+* `git clone <url>`             : Sao chép repository từ GitHub về máy tính cá nhân.
+* `git checkout -b <tên_nhánh>` : Tạo nhánh mới và chuyển sang nhánh đó.
+* `git checkout <tên_nhánh>`    : Chuyển đổi giữa các nhánh.
+* `git add .`                   : Đưa các thay đổi vào vùng Staging.
+* `git commit -m "tin_nhắn"`    : Lưu lại thay đổi với nội dung mô tả cụ thể.
+* `git pull origin <tên_nhánh>` : Cập nhật phiên bản mới nhất từ GitHub về máy.
+* `git push origin <tên_nhánh>` : Đẩy các thay đổi từ máy cá nhân lên GitHub.
+* `git reset --hard origin/main`: Đồng bộ lại trạng thái local với nhánh chính trên GitHub khi cần thiết.
+* `git revert <commit_id>`      : Hoàn tác một commit bằng cách tạo thêm commit đảo ngược.
+* `git log --oneline`           : Xem lịch sử commit dưới dạng rút gọn.
+
 
 * `git clone <url>`: Sao chép repository từ GitHub về máy tính cá nhân.
 * `git checkout -b <tên_nhánh>`: Tạo nhánh mới và chuyển sang nhánh đó.
