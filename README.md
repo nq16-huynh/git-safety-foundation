@@ -1,68 +1,42 @@
-# BÁO CÁO HOÀN THÀNH PROJECT: GIT SAFETY FOUNDATION
+# BÁO CÁO HOÀN THÀNH GIT SAFETY FOUNDATION
 
-## 1. Thông tin cá nhân
+**Họ và tên:** Huỳnh Nhật Quốc
 
-* **Họ và tên học viên:** Huỳnh Nhật Quốc
-* **Trạng thái:** Đã hoàn thành hai lộ trình Microsoft Learn theo yêu cầu.
+**Kết quả học tập:** Đã hoàn thành đầy đủ hai lộ trình GitHub Foundations trên Microsoft Learn.
 
-## 2. Nhật ký quá trình học và thực hành Git
+---
 
+## Quá trình học và thực hành
 
-### Giai đoạn 1: Học lý thuyết trên Microsoft Learn
+Trong giai đoạn đầu, đã hoàn thành các nội dung học tập trên Microsoft Learn và tìm hiểu các khái niệm cơ bản của Git và GitHub như Repository, Commit, Branch, Pull Request cũng như quy trình quản lý phiên bản mã nguồn.
 
-Đã hoàn thành các module được giao trên Microsoft Learn, qua đó nắm được những kiến thức cơ bản về Git và GitHub như Repository, Commit, Branch, Pull Request và quy trình quản lý phiên bản mã nguồn.
+Sau khi hoàn thành phần lý thuyết, tiến hành tạo repository cá nhân trên GitHub và kết nối với môi trường local. Đồng thời thực hành làm việc với nhiều branch khác nhau để hiểu rõ hơn quy trình phát triển tính năng và cách cộng tác trong dự án.
 
+Bên cạnh các thao tác cơ bản, cũng thực hiện một số tình huống nâng cao như tạo xung đột trên file `nhatky.txt` để thực hành xử lý conflict và sử dụng lệnh `git revert` nhằm hoàn tác một commit bị lỗi nhưng vẫn đảm bảo giữ lại lịch sử thay đổi của repository.
 
-### Giai đoạn 2: Thực hành với GitHub Repository
+---
 
-Tạo một GitHub repository cá nhân và kết nối giữa môi trường local với remote repository trên GitHub. Trong quá trình thực hành, đã tạo các nhánh riêng để mô phỏng việc phát triển tính năng độc lập và làm quen với quy trình làm việc theo GitHub Flow.
+## Một số lệnh Git đã sử dụng
 
-
-### Giai đoạn 3: Thực hành các tình huống nâng cao
-
-Chủ động tạo tình huống xung đột (Conflict) trên file *nhatky.txt* và tiến hành xử lý conflict để hiểu rõ hơn cách hợp nhất các thay đổi giữa các nhánh. Bên cạnh đó, cũng thực hành sử dụng lệnh `git revert` để hoàn tác một commit bị lỗi mà vẫn giữ nguyên lịch sử phát triển của dự án.
-
-
-
-## 3. Danh sách các lệnh Git đã sử dụng
-
-Trong quá trình thực hành, đã sử dụng các lệnh Git cơ bản sau:
-
-
-
-
-* `git clone <url>`             : Sao chép repository từ GitHub về máy tính cá nhân.
-* `git checkout -b <tên_nhánh>` : Tạo nhánh mới và chuyển sang nhánh đó.
-* `git checkout <tên_nhánh>`    : Chuyển đổi giữa các nhánh.
-* `git add .`                   : Đưa các thay đổi vào vùng Staging.
-* `git commit -m "tin_nhắn"`    : Lưu lại thay đổi với nội dung mô tả cụ thể.
-* `git pull origin <tên_nhánh>` : Cập nhật phiên bản mới nhất từ GitHub về máy.
-* `git push origin <tên_nhánh>` : Đẩy các thay đổi từ máy cá nhân lên GitHub.
-* `git reset --hard origin/main`: Đồng bộ lại trạng thái local với nhánh chính trên GitHub khi cần thiết.
-* `git revert <commit_id>`      : Hoàn tác một commit bằng cách tạo thêm commit đảo ngược.
-* `git log --oneline`           : Xem lịch sử commit dưới dạng rút gọn.
-
-
-* `git clone <url>`: Sao chép repository từ GitHub về máy tính cá nhân.
-* `git checkout -b <tên_nhánh>`: Tạo nhánh mới và chuyển sang nhánh đó.
-* `git checkout <tên_nhánh>`: Chuyển đổi giữa các nhánh.
+* `git clone <url>`: Sao chép repository từ GitHub về máy.
+* `git checkout -b <tên_nhánh>`: Tạo branch mới và chuyển sang branch đó.
+* `git checkout <tên_nhánh>`: Chuyển đổi giữa các branch.
 * `git add .`: Đưa các thay đổi vào vùng Staging.
-* `git commit -m "tin_nhắn"`: Lưu lại thay đổi với nội dung mô tả cụ thể.
-* `git pull origin <tên_nhánh>`: Cập nhật phiên bản mới nhất từ GitHub về máy.
-* `git push origin <tên_nhánh>`: Đẩy các thay đổi từ máy cá nhân lên GitHub.
-* `git reset --hard origin/main`: Đồng bộ lại trạng thái local với nhánh chính trên GitHub khi cần thiết.
-* `git revert <commit_id>`: Hoàn tác một commit bằng cách tạo thêm commit đảo ngược.
-* `git log --oneline`: Xem lịch sử commit dưới dạng rút gọn.
+* `git commit -m "message"`: Tạo commit và lưu lại thay đổi.
+* `git pull origin <tên_nhánh>`: Cập nhật dữ liệu mới từ GitHub về máy.
+* `git push origin <tên_nhánh>`: Đẩy các thay đổi từ local lên GitHub.
+* `git reset --hard origin/main`: Đồng bộ lại trạng thái local với branch chính.
+* `git revert <commit_id>`: Hoàn tác một commit bằng cách tạo commit đảo ngược.
+* `git log --oneline`: Kiểm tra lịch sử commit dưới dạng rút gọn.
 
+---
 
-## 4. Thu hoạch: Sẽ sử dụng Git như thế nào khi Vibe Code với AI?
+## Sử dụng Git khi Vibe Code với AI
 
-Khi tham gia khóa học Vibe Code với AI, tốc độ sinh code của AI rất nhanh nhưng cũng tiềm ẩn nguy cơ tạo ra lỗi hoặc ảnh hưởng đến những phần chức năng đang hoạt động ổn định. Vì vậy, Git sẽ được sử dụng như một công cụ đảm bảo an toàn cho quá trình phát triển.
+Khi làm việc với AI, tốc độ tạo mã nguồn nhanh hơn rất nhiều nhưng cũng dễ phát sinh lỗi hoặc làm ảnh hưởng đến các chức năng đang hoạt động ổn định. Vì vậy, Git sẽ được sử dụng như một công cụ hỗ trợ kiểm soát thay đổi và đảm bảo an toàn cho dự án.
 
-* **Tạo nhánh riêng trước khi làm việc với AI:** Trước khi nhờ AI hỗ trợ viết tính năng mới, sẽ tạo một branch riêng thay vì thao tác trực tiếp trên nhánh `main`.
+Trước khi sử dụng AI để phát triển một tính năng mới, sẽ tạo branch riêng thay vì thao tác trực tiếp trên branch `main`. Các thay đổi sẽ được commit thường xuyên với nội dung rõ ràng để dễ theo dõi và quay lại khi cần.
 
-* **Commit thường xuyên với nội dung rõ ràng:** Sau mỗi phần chức năng được AI hỗ trợ và kiểm tra hoạt động ổn định, sẽ tạo commit để lưu lại các mốc quan trọng.
+Trong trường hợp AI sinh ra code gây lỗi hoặc làm hệ thống hoạt động không như mong muốn, có thể sử dụng `git revert` hoặc các phương pháp rollback để khôi phục lại phiên bản ổn định trước đó.
 
-* **Sử dụng Revert hoặc Rollback khi xảy ra lỗi:** Nếu code do AI sinh ra gây lỗi hoặc làm ảnh hưởng đến hệ thống, có thể nhanh chóng quay lại trạng thái ổn định trước đó.
-
-* **Kiểm tra thay đổi thông qua Pull Request:** Trước khi hợp nhất vào nhánh chính, sẽ sử dụng Pull Request để xem lại các thay đổi, từ đó giảm thiểu rủi ro và đảm bảo tính ổn định của dự án.
+Ngoài ra, Pull Request sẽ được sử dụng để kiểm tra các thay đổi trước khi hợp nhất vào branch chính, từ đó hạn chế rủi ro và giúp quá trình phát triển trở nên an toàn hơn.
