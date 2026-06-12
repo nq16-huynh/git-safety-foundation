@@ -2,7 +2,7 @@
 
 **Họ và tên:** Huỳnh Nhật Quốc
 **Kết quả học tập:** Đã hoàn thành đầy đủ hai lộ trình GitHub Foundations trên Microsoft Learn.
-
+Dòng này là của nhánh main.
 ## Quá trình học và thực hành
 Trong giai đoạn đầu, đã hoàn thành các nội dung học tập trên Microsoft Learn và tìm hiểu các khái niệm cơ bản của Git và GitHub như Repository, Commit, Branch, Pull Request cũng như quy trình quản lý phiên bản mã nguồn.
 
