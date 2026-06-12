@@ -12,3 +12,4 @@ Dùng `git revert` hoặc `git reset` để khôi phục nhanh khi AI sinh code 
 - Mỗi đoạn code từ AI sẽ được commit vào một nhánh riêng (feature branch).
 - Nếu AI tạo lỗi, tôi sẽ dùng `git revert` để quay lại phiên bản ổn định.
 eat: cập nhật mục tiêu dự án
+- Công cụ: GitHub, Git Bash. -> Message: docs: thêm danh sách công cụ sử dụng
